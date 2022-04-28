@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="  123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/FindElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BaseSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SomeTest.java" afterDir="false" />
@@ -86,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651049550950</updated>
     </task>
+    <task id="LOCAL-00001" summary="  123">
+      <created>1651138436786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138436786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,12 +104,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="  123" />
+    <option name="LAST_COMMIT_MESSAGE" value="  123" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BaseSteps.java</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
