@@ -1,14 +1,11 @@
 package PageObject.BaseElements;
 
 import com.codeborne.selenide.SelenideElement;
-
 import static com.codeborne.selenide.Selenide.$x;
 
 public class FindElements {
-    public static SelenideElement loginPath = $x("//input[@id='login-form-username']");
-    public static SelenideElement passwordPath = $x("//input[@id='login-form-password']");
-    public static SelenideElement enterPath = $x("//input[@id='login-form-submit']");
-    public static SelenideElement authorizeAssert=$x("//a[@title='Пользовательский профиль для otarkhanov']");
+
+
     public static SelenideElement issueCount = $x("(//div[@class='ghx-issue-count'])[3]");
     public static SelenideElement hrefProject = $x("(//a[@href='/browse/TEST'])[1]");
     public static SelenideElement hrefTestProject = $x("//a[@id='admin_main_proj_link_lnk']");

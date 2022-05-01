@@ -10,8 +10,10 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$x;
 import static org.junit.Assert.assertTrue;
 
-public class BaseSteps extends FindElements {
-    public static void logIn(){
+
+/*
+ public class BaseSteps extends FindElements {
+    public static void login(){
         loginPath.shouldBe(visible, Duration.ofSeconds(60)).click();
         loginPath.setValue("otarkhanov");
         passwordPath.shouldBe(visible, Duration.ofSeconds(60)).click();
@@ -28,7 +30,7 @@ public class BaseSteps extends FindElements {
         tasks.click();
     }
      public static void issueCounting(){
-        System.out.print(issueCount.getText());
+        System.out.println(issueCount.getText());
     }
 
     public static void taskTestSelenium(){
@@ -65,3 +67,4 @@ public class BaseSteps extends FindElements {
 
     }
 }
+*/
