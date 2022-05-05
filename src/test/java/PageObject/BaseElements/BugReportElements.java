@@ -26,8 +26,9 @@ public class BugReportElements {
     public static SelenideElement description = $x("//textarea[@id='description']");
     public static SelenideElement descriptionTxtButton= $x("(//button[@class='aui-button' and @aria-pressed='true'])[1]");
  */
-   public static SelenideElement descriptionPath = $x("//body[@id='jira']/ancestor::html//div[@id='environment-wiki-edit']//iframe");
-   public static SelenideElement descriptionPathIframe = $x("(//body[@id='tinymce'])[1]");
+   public static SelenideElement descriptionPath = $x("//body[@id='jira']/ancestor::html//div[@id='description-wiki-edit']//iframe");
+   public static SelenideElement descriptionPathInIframe = $x("//body[@data-id='mce_0']");
 
+    public static SelenideElement summaryValueCheck = $x( "//h1[@id='summary-val']");
 
 }

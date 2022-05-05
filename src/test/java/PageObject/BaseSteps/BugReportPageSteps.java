@@ -2,6 +2,7 @@ package PageObject.BaseSteps;
 
 import PageObject.BaseElements.BugReportElements;
 import com.codeborne.selenide.SelenideElement;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,25 +22,32 @@ public class BugReportPageSteps extends BugReportElements {
         createBugReportButton.shouldBe(visible, Duration.ofSeconds(60)).click();
         issueType.shouldBe(visible, Duration.ofSeconds(60)).click();
         summaryInput.shouldBe(visible, Duration.ofSeconds(60)).click();
-        summaryInput.setValue("AutoTestingF");
+        summaryInput.setValue("AutoTestingFinalCountDowN");
+        String summary = summaryInput.getValue();
 
         /*   Ввод описания в баг репорт без айфрейма через текстовое поле
 
-        // descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
-        // description.setValue("Description");
+         descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
+         description.setValue("Description");
 
          */
 
         descriptionPath.shouldBe(visible, Duration.ofSeconds(60));
         switchTo().frame(descriptionPath);
-        descriptionPathIframe.shouldBe(visible, Duration.ofSeconds(60)).click();
-        descriptionPathIframe.setValue("DescriptionF");
+        descriptionPathInIframe.shouldBe(visible, Duration.ofSeconds(60)).click();
+        descriptionPathInIframe.setValue("Description");
         switchTo().parentFrame();
         versionA.click();
         versionB.click();
         assignOnMe.click();
         createIssueSubmit.shouldBe(visible, Duration.ofSeconds(60)).click();
+
+        tasksHref.click();
+        reportedByMeTasks.click();
+        Assert.assertEquals(summaryValueCheck.getText(),summary);
+
     }
+
     public static void changeStatus() {
         tasksHref.shouldBe(visible, Duration.ofSeconds(60)).click();
         reportedByMeTasks.shouldBe(visible, Duration.ofSeconds(60)).click();

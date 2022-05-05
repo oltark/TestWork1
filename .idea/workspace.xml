@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="v1.3">
+    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="v1.4 final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651753571281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1.4 final">
+      <created>1651770417200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651770417200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +170,7 @@
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.2" />
     <MESSAGE value="v1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
+    <MESSAGE value="v1.4 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4 final" />
   </component>
 </project>

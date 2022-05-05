@@ -7,8 +7,6 @@ import static PageObject.BaseSteps.MainPageSteps.*;
 import static com.codeborne.selenide.Selenide.open;
 
 public class AutoTest extends WebHooks {
-
-
     @Test
     public void Test1(){
         open("https://edujira.ifellow.ru/login.jsp");
@@ -16,7 +14,6 @@ public class AutoTest extends WebHooks {
         login();
         authorizeCheck();
     }
-
     @Test
     public void Test2(){
         open("https://edujira.ifellow.ru/login.jsp");
@@ -26,7 +23,6 @@ public class AutoTest extends WebHooks {
         numberOfTasks();
         testSeleniumTask();
     }
-
     @Test
     public void Test3(){
         open("https://edujira.ifellow.ru/login.jsp");
@@ -36,7 +32,6 @@ public class AutoTest extends WebHooks {
         changeStatus();
     }
 
-
-    }
+}
 
 
