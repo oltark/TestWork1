@@ -1,10 +1,17 @@
 package PageObject.BaseSteps;
 
 import PageObject.BaseElements.BugReportElements;
+import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.switchTo;
 
 
 public class BugReportPageSteps extends BugReportElements {
@@ -15,9 +22,12 @@ public class BugReportPageSteps extends BugReportElements {
         issueType.shouldBe(visible, Duration.ofSeconds(60)).click();
         summaryInput.shouldBe(visible, Duration.ofSeconds(60)).click();
         summaryInput.setValue("AutoTesting321");
-        descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
-        description.shouldBe(visible, Duration.ofSeconds(60)).doubleClick();
-        description.setValue("Description123");
+       // descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
+        WebElement descriptionPath = new WebDriver.
+        driver.switchTo().frame(descriptionPath);
+        descriptionPath.setValue("Description");
+       // description.shouldBe(visible, Duration.ofSeconds(60)).doubleClick();
+       // description.setValue("DescriptionIframe");
         versionA.click();
         versionB.click();
         assignOnMe.click();

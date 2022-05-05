@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="v1.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" afterDir="false" />
+    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="v1.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/FindElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/LoginElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/MainPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/MainPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/ProjectPageElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/TaskElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BaseSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/ProjectPageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/TaskPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AutoTest.Test2">
+  <component name="RunManager" selected="JUnit.AutoTest.Test3">
     <configuration name="AutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project1" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +62,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutoTest" />
       <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoTest" />
+      <option name="METHOD_NAME" value="Test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutoTest.Test3" />
         <item itemvalue="JUnit.AutoTest.Test2" />
         <item itemvalue="JUnit.AutoTest" />
         <item itemvalue="JUnit.SomeTest" />
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651415459281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v1.3">
+      <created>1651753571276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651753571281</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +161,8 @@
     <MESSAGE value="  123" />
     <MESSAGE value="v1.0" />
     <MESSAGE value="v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1" />
+    <MESSAGE value="v1.2" />
+    <MESSAGE value="v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
   </component>
 </project>

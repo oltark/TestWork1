@@ -33,7 +33,7 @@ public class AutoTest extends WebHooks {
         checkPageOpened();
         login();
         createBugReport();
-        changeStatus();
+       // changeStatus();
     }
 
 
