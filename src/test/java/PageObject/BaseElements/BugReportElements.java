@@ -21,12 +21,13 @@ public class BugReportElements {
     public static SelenideElement closedStatusDropdown = $x("( //span[@class='dropdown-text'])[2]");
     public static SelenideElement closedStatus= $x("(//aui-item-link[@class='issueaction-workflow-transition'])[1]");
 
+/*  Ввод описания в баг репорт без айфрейма через текстовое поле
 
-    // public static SelenideElement iframe = $x("//iframe[@id='mce_0_ifr']");
-    // public static SelenideElement iframe = $x("//div[@class='tox tox-tinymce jira-editor-container']");
- //   public static SelenideElement description = $x("//textarea[@id='description']");
- //   public static SelenideElement descriptionTxtButton= $x("(//button[@class='aui-button' and @aria-pressed='true'])[1]");
-
+    public static SelenideElement description = $x("//textarea[@id='description']");
+    public static SelenideElement descriptionTxtButton= $x("(//button[@class='aui-button' and @aria-pressed='true'])[1]");
+ */
    public static SelenideElement descriptionPath = $x("//body[@id='jira']/ancestor::html//div[@id='environment-wiki-edit']//iframe");
+   public static SelenideElement descriptionPathIframe = $x("(//body[@id='tinymce'])[1]");
+
 
 }

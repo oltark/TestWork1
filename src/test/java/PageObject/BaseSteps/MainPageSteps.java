@@ -16,14 +16,12 @@ public class MainPageSteps extends MainPageElements {
                hrefTestProject.shouldBe(visible, Duration.ofSeconds(60)).click();
 
            }
-
            public static void numberOfTasks(){
                tasks.shouldBe(visible, Duration.ofSeconds(60)).click();
                String numberOfTasks = issueCount.getText();
                System.out.println("Общее количество текущих задач: " + numberOfTasks);
 
            }
-
            public static void testSeleniumTask(){
                findTask.setValue("TestSelenium");
                testSeleniumTask.shouldBe(visible, Duration.ofSeconds(60)).click();
@@ -33,7 +31,6 @@ public class MainPageSteps extends MainPageElements {
                String actualVersString = versionSeleniumTask.getText();
                System.out.println("Версия на данный момент - " + actualVersString);
                assertTrue(actualVersString.contains("Version 2.0"));
-
 
     }
 

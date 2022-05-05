@@ -12,7 +12,6 @@ import static com.codeborne.selenide.Selenide.$x;
 import static org.junit.Assert.assertTrue;
 
 public class LoginSteps extends LoginElements {
-
     public static void checkPageOpened(){
         String pageOpenedCheck = pageOpened.getText();
         assertTrue(pageOpenedCheck.contains("Добро пожаловать в Jira"));
@@ -24,10 +23,8 @@ public class LoginSteps extends LoginElements {
         passwordPath.shouldBe(visible, Duration.ofSeconds(60)).click();
         passwordPath.setValue("123Qwerty");
         enterPath.click();
-
     }
     public static void authorizeCheck() {
-
         authorizeAssert.shouldBe(visible, Duration.ofSeconds(60));
         authorizeAssert.shouldHave(attribute("title", "Пользовательский профиль для otarkhanov"));
 

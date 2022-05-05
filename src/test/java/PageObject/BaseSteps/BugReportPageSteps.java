@@ -21,13 +21,20 @@ public class BugReportPageSteps extends BugReportElements {
         createBugReportButton.shouldBe(visible, Duration.ofSeconds(60)).click();
         issueType.shouldBe(visible, Duration.ofSeconds(60)).click();
         summaryInput.shouldBe(visible, Duration.ofSeconds(60)).click();
-        summaryInput.setValue("AutoTesting321");
-       // descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
-        WebElement descriptionPath = new WebDriver.
-        driver.switchTo().frame(descriptionPath);
-        descriptionPath.setValue("Description");
-       // description.shouldBe(visible, Duration.ofSeconds(60)).doubleClick();
-       // description.setValue("DescriptionIframe");
+        summaryInput.setValue("AutoTestingF");
+
+        /*   Ввод описания в баг репорт без айфрейма через текстовое поле
+
+        // descriptionTxtButton.shouldBe(visible, Duration.ofSeconds(60)).click();
+        // description.setValue("Description");
+
+         */
+
+        descriptionPath.shouldBe(visible, Duration.ofSeconds(60));
+        switchTo().frame(descriptionPath);
+        descriptionPathIframe.shouldBe(visible, Duration.ofSeconds(60)).click();
+        descriptionPathIframe.setValue("DescriptionF");
+        switchTo().parentFrame();
         versionA.click();
         versionB.click();
         assignOnMe.click();
@@ -40,7 +47,6 @@ public class BugReportPageSteps extends BugReportElements {
         inWorkStatus.click();
         closedStatusDropdown.click();
         closedStatus.click();
-
 
     }
 

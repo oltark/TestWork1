@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AutoTest.Test3">
+  <component name="RunManager" selected="JUnit.AutoTest (1)">
+    <configuration name="AutoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project1" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,6 +78,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoTest.Test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoTest" />
+      <option name="METHOD_NAME" value="Test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project1" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,32 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SomeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeTest.Test_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SomeTest" />
-      <option name="METHOD_NAME" value="Test_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutoTest (1)" />
+        <item itemvalue="JUnit.AutoTest.Test3 (1)" />
         <item itemvalue="JUnit.AutoTest.Test3" />
         <item itemvalue="JUnit.AutoTest.Test2" />
         <item itemvalue="JUnit.AutoTest" />
-        <item itemvalue="JUnit.SomeTest" />
-        <item itemvalue="JUnit.SomeTest.Test_2" />
       </list>
     </recent_temporary>
   </component>
