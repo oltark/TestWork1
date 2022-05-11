@@ -22,6 +22,7 @@ public class AutoTest extends WebHooks {
         hrefProject();
         numberOfTasks();
         testSeleniumTask();
+
     }
     @Test
     public void Test3(){

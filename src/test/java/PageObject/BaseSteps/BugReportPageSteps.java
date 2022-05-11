@@ -22,7 +22,7 @@ public class BugReportPageSteps extends BugReportElements {
         createBugReportButton.shouldBe(visible, Duration.ofSeconds(60)).click();
         issueType.shouldBe(visible, Duration.ofSeconds(60)).click();
         summaryInput.shouldBe(visible, Duration.ofSeconds(60)).click();
-        summaryInput.setValue("AutoTestingFinalCountDowN");
+        summaryInput.setValue("AutoCucu");
         String summary = summaryInput.getValue();
 
         /*   Ввод описания в баг репорт без айфрейма через текстовое поле
@@ -41,7 +41,6 @@ public class BugReportPageSteps extends BugReportElements {
         versionB.click();
         assignOnMe.click();
         createIssueSubmit.shouldBe(visible, Duration.ofSeconds(60)).click();
-
         tasksHref.click();
         reportedByMeTasks.click();
         Assert.assertEquals(summaryValueCheck.getText(),summary);

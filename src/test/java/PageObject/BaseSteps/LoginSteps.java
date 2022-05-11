@@ -1,14 +1,11 @@
 package PageObject.BaseSteps;
 
 import PageObject.BaseElements.LoginElements;
-import com.codeborne.selenide.SelenideElement;
-import org.junit.jupiter.api.Assertions;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$x;
 import static org.junit.Assert.assertTrue;
 
 public class LoginSteps extends LoginElements {
@@ -17,6 +14,18 @@ public class LoginSteps extends LoginElements {
         assertTrue(pageOpenedCheck.contains("Добро пожаловать в Jira"));
 
     }
+
+    public static void loginVal(String loginName) {
+        loginPath.setValue(loginName);
+
+    }
+
+    public static void passwordVal(String passwordName){
+        passwordPath.setValue(passwordName);
+
+    }
+
+
     public static void login(){
         loginPath.shouldBe(visible, Duration.ofSeconds(60)).click();
         loginPath.setValue("otarkhanov");
