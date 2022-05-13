@@ -28,12 +28,14 @@ public class StepDefinition extends WebHooks {
         MainPageSteps.hrefProject();
         MainPageSteps.numberOfTasks();
         MainPageSteps.testSeleniumTask();
+
     }
 
     @И("^Заполняем страницу баг репорта")
     public void bugReportSteps() {
         BugReportPageSteps.createBugReport();
         BugReportPageSteps.changeStatus();
+
 
     }
 
